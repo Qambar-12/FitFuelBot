@@ -11,8 +11,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Print the API key to verify if it's loaded correctly (you can remove this line once confirmed)
-print("API Key:", os.getenv("GROQ_API_KEY"))
+
 
 # Initialize Groq client assuming that the environment variable is set
 groq_client = Groq()
@@ -86,9 +85,48 @@ def parse_height(height_str):
 def calculate_bmi(weight, height_cm):
     return weight / ((height_cm / 100) ** 2)
 
+# # Generating the personalized plan
+# def generate_plan(user_data, retrieved_data):
+#     prompt = f"""Based on the following user data and retrieved information, generate a personalized 7-day diet plan, exercise routine, and lifestyle tips for {user_data['goal']} with a focus on {user_data['focus']}...
+
+#     User Data:
+#     - Height: {user_data['height_cm']}cm
+#     - Current Weight: {user_data['weight']}kg
+#     - Desired Weight: {user_data['desired_weight']}kg
+#     - Waist: {user_data['waist']}cm
+#     - Time Frame: {user_data['months']} months
+#     - BMI: {user_data['bmi']:.1f}
+#     - Goal: {user_data['goal']}
+#     - Focus: {user_data['focus']}
+#     - Additional Details: {user_data['additional_details']}
+
+#     Retrieved Information:
+#     {json.dumps(retrieved_data, indent=2)}
+
+#     Please provide:
+#     1. A 7-day diet plan with specific meal suggestions.
+#     2. A weekly exercise routine tailored to the user's goal and focus.
+#     3. Daily lifestyle tips for optimal results.
+#     4. Any additional recommendations based on the user's specific situation.
+
+#     Ensure the plan is realistic, sustainable, and tailored to the user's preferences and constraints.
+#     """
+
+#     response = groq_client.chat.completions.create(
+#         messages=[
+#             {"role": "system", "content": "You are a knowledgeable health and fitness advisor. Provide detailed, personalized advice based on the given information."},
+#             {"role": "user", "content": prompt}
+#         ],
+#         model="llama3-70b-8192",
+#         temperature=0.7,
+#         max_tokens=2000,
+#     )
+
+#     return response.choices[0].message.content
+
 # Generating the personalized plan
 def generate_plan(user_data, retrieved_data):
-    prompt = f"""Based on the following user data and retrieved information, generate a personalized 7-day diet plan, exercise routine, and lifestyle tips for {user_data['goal']} with a focus on {user_data['focus']}...
+    prompt = f"""Based on the following user data and retrieved information, generate a personalized 7-day diet plan, exercise routine, and lifestyle tips for {user_data['goal']} with a focus on {user_data['focus']}.
 
     User Data:
     - Height: {user_data['height_cm']}cm
@@ -105,12 +143,12 @@ def generate_plan(user_data, retrieved_data):
     {json.dumps(retrieved_data, indent=2)}
 
     Please provide:
-    1. A 7-day diet plan with specific meal suggestions.
-    2. A weekly exercise routine tailored to the user's goal and focus.
-    3. Daily lifestyle tips for optimal results.
-    4. Any additional recommendations based on the user's specific situation.
+    1. A list of ideal options for each meal (breakfast, lunch, and dinner) that can be chosen throughout the week. These options should be nutritionally balanced and cater to the user's dietary preferences and goals.
+    2. A weekly exercise routine tailored to the user's goal and focus, categorized by specific muscle groups such as chest, back, biceps, triceps, legs, shoulders, and abs.
+    3. Daily lifestyle tips for achieving optimal results.
+    4. Any additional recommendations based on the user's specific situation and health needs.
 
-    Ensure the plan is realistic, sustainable, and tailored to the user's preferences and constraints.
+    Ensure the meal options are versatile and easy to prepare, allowing for flexibility throughout the week without being tied to specific days.
     """
 
     response = groq_client.chat.completions.create(
@@ -124,6 +162,8 @@ def generate_plan(user_data, retrieved_data):
     )
 
     return response.choices[0].message.content
+
+
 
 # Streamlit UI
 st.title("Personalized Health and Fitness Advisor")
@@ -168,5 +208,9 @@ if st.button("Generate Personalized Plan"):
         st.write(plan)
     else:
         st.error("Please enter your height.")
+
+
+
+
 
 st.caption("Disclaimer: This advice is AI-generated. Consult with healthcare professionals before making significant changes to your diet or exercise routine.")
