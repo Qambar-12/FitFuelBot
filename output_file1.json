@@ -1,0 +1,1089 @@
+﻿{
+  "metadata": {
+    "description": "Health and fitness advisor dataset for RAG system",
+    "version": "1.0",
+    "last_updated": "2024-08-31",
+    "entry_count": 19
+  },
+  "data": [
+    {
+      "id": 1,
+      "diet_plan": {
+        "description": "High protein (2g/kg body weight), moderate carbs (3g/kg), low fat (0.5g/kg). Focus on lean meats, eggs, Greek yogurt, whole grains, and vegetables.",
+        "meal_frequency": "5-6 small meals per day"
+      },
+      "exercise_routine": {
+        "schedule": [
+          {
+            "day": 1,
+            "exercises": [
+              {
+                "name": "Squats",
+                "sets": 5,
+                "reps": 5
+              },
+              {
+                "name": "Bench Press",
+                "sets": 5,
+                "reps": 5
+              },
+              {
+                "name": "Rows",
+                "sets": 5,
+                "reps": 5
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exercises": [
+              {
+                "name": "Deadlifts",
+                "sets": 5,
+                "reps": 5
+              },
+              {
+                "name": "Overhead Press",
+                "sets": 5,
+                "reps": 5
+              },
+              {
+                "name": "Pull-ups",
+                "sets": 3,
+                "reps": "AMRAP"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "description": "Rest"
+          }
+        ],
+        "note": "Repeat cycle"
+      },
+      "lifestyle_tips": [
+        "Prioritize sleep (8-9 hours per night)",
+        "Stay hydrated (3-4 liters of water daily)",
+        "Practice mindfulness for 10 minutes daily to manage stress"
+      ],
+      "goal": "muscle_gain",
+      "focus": "powerlifting",
+      "intensity": "high",
+      "duration": 60,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 20,
+        "max": 27
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 2,
+      "diet_plan": {
+        "description": "Calorie deficit of 500 kcal/day. High protein (1.8g/kg body weight), moderate fat (0.8g/kg), low carb (2g/kg). Emphasize lean proteins, vegetables, and whole grains.",
+        "special_technique": "Intermittent fasting 16/8"
+      },
+      "exercise_routine": {
+        "type": "HIIT",
+        "frequency": "4x/week",
+        "exercises": [
+          "Burpees",
+          "Mountain Climbers",
+          "Jump Squats",
+          "Push-ups",
+          "High Knees"
+        ],
+        "protocol": "30 seconds each, 15 seconds rest, 5 rounds"
+      },
+      "lifestyle_tips": [
+        "Track calories using a mobile app",
+        "Take 10,000 steps daily",
+        "Practice portion control using smaller plates",
+        "Get 7-8 hours of sleep nightly"
+      ],
+      "goal": "weight_loss",
+      "focus": "general_fitness",
+      "intensity": "moderate",
+      "duration": 30,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 25,
+        "max": 35
+      },
+      "experience_level": "beginner"
+    },
+    {
+      "id": 3,
+      "diet_plan": {
+        "description": "Balanced macronutrients: 30% protein, 40% carbs, 30% fat. Focus on whole foods, lean proteins, complex carbs, and healthy fats.",
+        "meal_frequency": "3 main meals + 2 snacks"
+      },
+      "exercise_routine": {
+        "type": "Full body workout",
+        "frequency": "3x/week",
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Dumbbell Bench Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Rows",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": "10 per leg"
+          },
+          {
+            "name": "Shoulder Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Planks",
+            "sets": 3,
+            "duration": "30sec"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Practice meal prep on Sundays for the week ahead",
+        "Incorporate active recovery (light yoga or walking) on rest days",
+        "Limit alcohol consumption to once per week"
+      ],
+      "goal": "muscle_gain",
+      "focus": "bodybuilding",
+      "intensity": "moderate",
+      "duration": 45,
+      "frequency": 3,
+      "bmi_range": {
+        "min": 18.5,
+        "max": 27
+      },
+      "experience_level": "beginner"
+    },
+    {
+      "id": 4,
+      "diet_plan": {
+        "description": "Ketogenic diet: 75% fat, 20% protein, 5% carbs. Focus on fatty fish, avocados, nuts, seeds, and low-carb vegetables.",
+        "carb_limit": "20-50g per day"
+      },
+      "exercise_routine": {
+        "type": "Strength training",
+        "frequency": "4x/week",
+        "schedule": [
+          {
+            "days": [ 1, 3 ],
+            "focus": "Lower Body",
+            "exercises": [
+              {
+                "name": "Squats",
+                "sets": 4,
+                "reps": 6
+              },
+              {
+                "name": "Romanian Deadlifts",
+                "sets": 4,
+                "reps": 8
+              },
+              {
+                "name": "Leg Press",
+                "sets": 3,
+                "reps": 10
+              }
+            ]
+          },
+          {
+            "days": [ 2, 4 ],
+            "focus": "Upper Body",
+            "exercises": [
+              {
+                "name": "Bench Press",
+                "sets": 4,
+                "reps": 6
+              },
+              {
+                "name": "Pull-ups",
+                "sets": 4,
+                "reps": 8
+              },
+              {
+                "name": "Overhead Press",
+                "sets": 3,
+                "reps": 10
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Monitor ketone levels using urine strips",
+        "Supplement with electrolytes to prevent keto flu",
+        "Practice intermittent fasting 16/8",
+        "Meditate for 15 minutes daily to manage stress"
+      ],
+      "goal": "weight_loss",
+      "focus": "strength",
+      "intensity": "high",
+      "duration": 60,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 28,
+        "max": 35
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 5,
+      "diet_plan": {
+        "description": "High carb (5g/kg body weight), moderate protein (1.6g/kg), low fat (0.8g/kg). Focus on whole grains, fruits, lean proteins, and low-fat dairy.",
+        "special_technique": "Carb loading before long training sessions"
+      },
+      "exercise_routine": {
+        "type": "Endurance training",
+        "schedule": [
+          {
+            "day": "Monday",
+            "activity": "60 min easy run"
+          },
+          {
+            "day": "Tuesday",
+            "activity": "45 min tempo run"
+          },
+          {
+            "day": "Wednesday",
+            "activity": "Cross-training (swimming or cycling)"
+          },
+          {
+            "day": "Thursday",
+            "activity": "60 min easy run + strength training"
+          },
+          {
+            "day": "Friday",
+            "activity": "Rest"
+          },
+          {
+            "day": "Saturday",
+            "activity": "Long run (90-120 min)"
+          },
+          {
+            "day": "Sunday",
+            "activity": "Active recovery (30 min easy jog)"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Foam roll daily for 10-15 minutes",
+        "Use compression garments for recovery",
+        "Get regular sports massages",
+        "Prioritize sleep (8-9 hours nightly)",
+        "Stay hydrated with electrolyte drinks during long sessions"
+      ],
+      "goal": "endurance",
+      "focus": "general_fitness",
+      "intensity": "high",
+      "duration": {
+        "min": 60,
+        "max": 120
+      },
+      "frequency": 6,
+      "bmi_range": {
+        "min": 18.5,
+        "max": 24
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 6,
+      "diet_plan": {
+        "description": "Plant-based diet: High in complex carbs (4g/kg), moderate protein (1.4g/kg from plant sources), healthy fats (0.8g/kg).",
+        "focus": "Focus on legumes, whole grains, nuts, seeds, and plenty of fruits and vegetables."
+      },
+      "exercise_routine": {
+        "type": "Calisthenics",
+        "frequency": "5x/week",
+        "exercises": [
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "name": "Dips",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Pistol Squats",
+            "sets": 3,
+            "reps": "8 each leg"
+          },
+          {
+            "name": "Hanging Leg Raises",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Handstand practice",
+            "duration": "5 minutes"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Meditate for 20 minutes daily",
+        "Practice yoga 2-3 times per week for flexibility and mindfulness",
+        "Use a standing desk for at least 3 hours daily",
+        "Spend time in nature weekly for mental health"
+      ],
+      "goal": "muscle_gain",
+      "focus": "bodyweight_fitness",
+      "intensity": "moderate",
+      "duration": 45,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 18.5,
+        "max": 25
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 7,
+      "diet_plan": {
+        "description": "Carb cycling: High carb on training days (3g/kg), low carb on rest days (1g/kg). Consistent high protein (2.2g/kg) and moderate fat (0.8g/kg).",
+        "focus": "Focus on lean meats, fish, eggs, complex carbs, and vegetables."
+      },
+      "exercise_routine": {
+        "type": "Split routine",
+        "frequency": "5x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Chest & Triceps"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Back & Biceps"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Rest"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Legs & Abs"
+          },
+          {
+            "day": "Friday",
+            "focus": "Shoulders & Arms"
+          },
+          {
+            "day": "Saturday",
+            "focus": "Rest"
+          },
+          {
+            "day": "Sunday",
+            "focus": "Active recovery (light cardio)"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Use a fitness tracker to monitor daily activity and sleep",
+        "Practice progressive muscle relaxation before bed",
+        "Stay consistent with meal timings",
+        "Limit caffeine intake after 2 PM"
+      ],
+      "goal": "muscle_gain",
+      "focus": "bodybuilding",
+      "intensity": "high",
+      "duration": 60,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 20,
+        "max": 28
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 8,
+      "diet_plan": {
+        "description": "Mediterranean diet: Rich in fruits, vegetables, whole grains, lean proteins (especially fish), and healthy fats (olive oil, nuts).",
+        "special_note": "Moderate red wine consumption."
+      },
+      "exercise_routine": {
+        "type": "Low-impact cardio and strength training",
+        "frequency": "4x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "activity": "45 min brisk walking + basic strength exercises"
+          },
+          {
+            "day": "Wednesday",
+            "activity": "30 min swimming + yoga"
+          },
+          {
+            "day": "Friday",
+            "activity": "45 min cycling + bodyweight exercises"
+          },
+          {
+            "day": "Saturday",
+            "activity": "60 min leisurely hike"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Practice mindful eating",
+        "Engage in social activities regularly",
+        "Cultivate a consistent sleep schedule",
+        "Limit processed foods and sugary drinks",
+        "Practice deep breathing exercises daily"
+      ],
+      "goal": "weight_loss",
+      "focus": "general_fitness",
+      "intensity": "low",
+      "duration": {
+        "min": 45,
+        "max": 60
+      },
+      "frequency": 4,
+      "bmi_range": {
+        "min": 25,
+        "max": 32
+      },
+      "experience_level": "beginner"
+    },
+    {
+      "id": 9,
+      "diet_plan": {
+        "description": "High protein (2.5g/kg body weight), moderate carbs (3g/kg), low fat (0.6g/kg).",
+        "focus": "Focus on lean meats, egg whites, protein powders, rice, and vegetables.",
+        "meal_frequency": "6-7 meals per day"
+      },
+      "exercise_routine": {
+        "type": "Bodybuilding split",
+        "frequency": "6x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Chest & Calves"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Back & Abs"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Shoulders & Calves"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Arms & Abs"
+          },
+          {
+            "day": "Friday",
+            "focus": "Legs"
+          },
+          {
+            "day": "Saturday",
+            "focus": "Weak points"
+          },
+          {
+            "day": "Sunday",
+            "focus": "Rest"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Prepare meals in advance for the week",
+        "Use supplement stack (creatine, BCAAs, whey protein)",
+        "Practice posing for 15 minutes daily",
+        "Get regular deep tissue massages for recovery"
+      ],
+      "goal": "muscle_gain",
+      "focus": "bodybuilding",
+      "intensity": "very_high",
+      "duration": 90,
+      "frequency": 6,
+      "bmi_range": {
+        "min": 22,
+        "max": 30
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 10,
+      "diet_plan": {
+        "description": "Flexible dieting (IIFYM): Track macros with 40% carbs, 30% protein, 30% fat.",
+        "focus": "Focus on hitting fiber goals and micronutrients while allowing for some 'treat' foods."
+      },
+      "exercise_routine": {
+        "type": "CrossFit-style workouts",
+        "frequency": "5x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "workout": "AMRAP 20 min - Thrusters, Pull-ups, Box Jumps"
+          },
+          {
+            "day": "Tuesday",
+            "workout": "5 rounds for time - Run 400m, 15 KB swings, 10 burpees"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Rest"
+          },
+          {
+            "day": "Thursday",
+            "workout": "EMOM 30 min - Alternating Power Cleans and Toes-to-Bar"
+          },
+          {
+            "day": "Friday",
+            "workout": "Partner WOD"
+          },
+          {
+            "day": "Saturday",
+            "workout": "Long run or row + skill work"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Join a CrossFit community for motivation",
+        "Learn proper form for all movements",
+        "Use a foam roller daily",
+        "Stay hydrated during workouts",
+        "Practice mobility work on rest days"
+      ],
+      "goal": "endurance",
+      "focus": "crossfit",
+      "intensity": "very_high",
+      "duration": 60,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 20,
+        "max": 27
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 11,
+      "diet_plan": {
+        "description": "Paleo diet: Focus on lean meats, fish, eggs, vegetables, fruits, nuts, and seeds.",
+        "restrictions": "Exclude grains, legumes, dairy, and processed foods",
+        "note": "Moderate carb intake from fruits and vegetables"
+      },
+      "exercise_routine": {
+        "type": "Functional fitness",
+        "frequency": "4x/week",
+        "exercises": [
+          {
+            "name": "Kettlebell swings",
+            "sets": 5,
+            "reps": 15
+          },
+          {
+            "name": "Turkish get-ups",
+            "sets": 3,
+            "reps": "5 each side"
+          },
+          {
+            "name": "Battle ropes",
+            "sets": 3,
+            "duration": "30 sec"
+          },
+          {
+            "name": "Medicine ball slams",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "TRX rows",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Farmer's walks",
+            "sets": 3,
+            "distance": "50m"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Practice earthing (walking barefoot in nature) weekly",
+        "Use blue light blocking glasses in the evening",
+        "Try intermittent fasting 14/10",
+        "Take cold showers for improved recovery and mental resilience"
+      ],
+      "goal": "weight_loss",
+      "focus": "functional_fitness",
+      "intensity": "moderate",
+      "duration": 50,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 24,
+        "max": 32
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 12,
+      "diet_plan": {
+        "description": "Vertical diet: Base meals on red meat and white rice, supplemented with easily digestible vegetables, eggs, and dairy if tolerated.",
+        "note": "High calorie for mass gain"
+      },
+      "exercise_routine": {
+        "type": "Powerlifting program",
+        "frequency": "4x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Squat 5x5, Bench 3x8, Accessories"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Deadlift 5x3, OHP 4x6, Accessories"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Bench 5x5, Squat 3x8, Accessories"
+          },
+          {
+            "day": "Friday",
+            "focus": "Deadlift variations, OHP variations"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Use a lifting belt for heavy sets",
+        "Practice visualization before big lifts",
+        "Supplement with creatine and beta-alanine",
+        "Use sauna 2-3 times per week for recovery",
+        "Prioritize sleep and post-workout nutrition"
+      ],
+      "goal": "strength",
+      "focus": "powerlifting",
+      "intensity": "very_high",
+      "duration": 75,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 25,
+        "max": 32
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 13,
+      "diet_plan": {
+        "description": "Calorie deficit of 300 kcal/day. High protein (2g/kg body weight), moderate carbs and fats.",
+        "focus": "Focus on nutrient-dense foods",
+        "special_technique": "Carb cycling with higher carbs on training days"
+      },
+      "exercise_routine": {
+        "type": "Body recomposition plan",
+        "frequency": "5x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Upper Body Strength"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Lower Body Strength"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "HIIT Cardio"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Upper Body Hypertrophy"
+          },
+          {
+            "day": "Friday",
+            "focus": "Lower Body Hypertrophy"
+          },
+          {
+            "day": "Saturday/Sunday",
+            "focus": "Active Recovery or Rest"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Use body fat calipers weekly to track progress",
+        "Practice progressive overload in strength training",
+        "Incorporate refeed days every 10-14 days",
+        "Use a food scale for accurate portion control"
+      ],
+      "goal": "body_recomposition",
+      "focus": "general_fitness",
+      "intensity": "high",
+      "duration": 60,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 23,
+        "max": 30
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 14,
+      "diet_plan": {
+        "description": "DASH diet: Rich in fruits, vegetables, whole grains, and lean proteins. Low in saturated fats and sodium.",
+        "sodium_target": "Aim for 1500-2300mg sodium per day"
+      },
+      "exercise_routine": {
+        "type": "Low-intensity cardio and strength training",
+        "frequency": "6x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "activity": "45 min brisk walking"
+          },
+          {
+            "day": "Tuesday",
+            "activity": "Full body strength training with resistance bands"
+          },
+          {
+            "day": "Wednesday",
+            "activity": "30 min swimming"
+          },
+          {
+            "day": "Thursday",
+            "activity": "Yoga or Pilates"
+          },
+          {
+            "day": "Friday",
+            "activity": "45 min recumbent bike"
+          },
+          {
+            "day": "Saturday",
+            "activity": "Light bodyweight exercises"
+          },
+          {
+            "day": "Sunday",
+            "activity": "Rest"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Monitor blood pressure daily",
+        "Practice stress-reduction techniques like deep breathing or meditation",
+        "Limit alcohol and caffeine intake",
+        "Ensure adequate potassium intake through diet"
+      ],
+      "goal": "weight_loss",
+      "focus": "heart_health",
+      "intensity": "low",
+      "duration": {
+        "min": 30,
+        "max": 45
+      },
+      "frequency": 6,
+      "bmi_range": {
+        "min": 27,
+        "max": 35
+      },
+      "experience_level": "beginner"
+    },
+    {
+      "id": 15,
+      "diet_plan": {
+        "description": "Cyclic Ketogenic Diet: 5 days strict keto (75% fat, 20% protein, 5% carbs), 2 days higher carb (50% carbs, 25% protein, 25% fat).",
+        "focus": "Focus on healthy fats, moderate protein, and low-carb vegetables"
+      },
+      "exercise_routine": {
+        "type": "Mixed martial arts training",
+        "frequency": "5x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Boxing technique + conditioning"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Brazilian Jiu-Jitsu"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Kickboxing + strength training"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Wrestling + conditioning"
+          },
+          {
+            "day": "Friday",
+            "focus": "MMA sparring"
+          },
+          {
+            "day": "Saturday/Sunday",
+            "focus": "Active recovery (light cardio or yoga)"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Stay hydrated with electrolyte-enhanced water",
+        "Use keto strips to monitor ketosis",
+        "Practice intermittent fasting 16/8",
+        "Incorporate mobility work daily",
+        "Use ice baths for recovery after intense training"
+      ],
+      "goal": "performance",
+      "focus": "martial_arts",
+      "intensity": "very_high",
+      "duration": 90,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 20,
+        "max": 27
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 16,
+      "diet_plan": {
+        "description": "Vegan bodybuilding diet: High protein from plant sources (1.8g/kg body weight), moderate carbs, moderate fats.",
+        "focus": "Focus on legumes, tofu, tempeh, seitan, quinoa, and plant-based protein powders"
+      },
+      "exercise_routine": {
+        "type": "Push/Pull/Legs routine",
+        "frequency": "6x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Push (Chest, Shoulders, Triceps)"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Pull (Back, Biceps)"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Legs"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Push"
+          },
+          {
+            "day": "Friday",
+            "focus": "Pull"
+          },
+          {
+            "day": "Saturday",
+            "focus": "Legs"
+          },
+          {
+            "day": "Sunday",
+            "focus": "Rest"
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Supplement with B12, vitamin D, and omega-3s",
+        "Use a variety of protein sources to ensure complete amino acid profile",
+        "Practice progressive overload",
+        "Utilize vegan-friendly BCAAs during workouts"
+      ],
+      "goal": "muscle_gain",
+      "focus": "bodybuilding",
+      "intensity": "high",
+      "duration": 60,
+      "frequency": 6,
+      "bmi_range": {
+        "min": 18.5,
+        "max": 27
+      },
+      "experience_level": "intermediate"
+    },
+    {
+      "id": 17,
+      "diet_plan": {
+        "description": "Zone Diet: Balanced macronutrient ratio of 30% protein, 30% fat, 40% carbs.",
+        "note": "Each meal should have this balance",
+        "focus": "Focus on lean proteins, low glycemic carbs, and healthy fats"
+      },
+      "exercise_routine": {
+        "type": "Triathlon training plan",
+        "frequency": "7x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "activities": [ "Swim 45 min", "Strength training" ]
+          },
+          {
+            "day": "Tuesday",
+            "activities": [ "Bike 60 min (intervals)" ]
+          },
+          {
+            "day": "Wednesday",
+            "activities": [ "Run 45 min (tempo)" ]
+          },
+          {
+            "day": "Thursday",
+            "activities": [ "Swim 30 min", "Bike 45 min" ]
+          },
+          {
+            "day": "Friday",
+            "activities": [ "Run 30 min", "Strength training" ]
+          },
+          {
+            "day": "Saturday",
+            "activities": [ "Long bike ride (2-3 hours)" ]
+          },
+          {
+            "day": "Sunday",
+            "activities": [ "Long run (60-90 min)" ]
+          }
+        ]
+      },
+      "lifestyle_tips": [
+        "Use a heart rate monitor to ensure proper training zones",
+        "Practice transition drills weekly",
+        "Incorporate regular massage or self-myofascial release",
+        "Use compression garments for recovery",
+        "Stay consistent with post-workout nutrition"
+      ],
+      "goal": "endurance",
+      "focus": "triathlon",
+      "intensity": "very_high",
+      "duration": {
+        "min": 60,
+        "max": 180
+      },
+      "frequency": 7,
+      "bmi_range": {
+        "min": 18.5,
+        "max": 25
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 18,
+      "diet_plan": {
+        "description": "Carb backloading: Low carb, high protein, and moderate fat during the day. High carb, moderate protein, and low fat in the evening after workouts.",
+        "focus": "Focus on lean proteins and vegetables during the day, add complex carbs at night"
+      },
+      "exercise_routine": {
+        "type": "German Volume Training",
+        "frequency": "4x/week",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focus": "Chest & Back"
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Legs & Abs"
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Rest"
+          },
+          {
+            "day": "Thursday",
+            "focus": "Shoulders & Arms"
+          },
+          {
+            "day": "Friday",
+            "focus": "Rest"
+          },
+          {
+            "day": "Saturday",
+            "focus": "Full Body"
+          },
+          {
+            "day": "Sunday",
+            "focus": "Rest"
+          }
+        ],
+        "note": "Main exercises: 10 sets of 10 reps"
+      },
+      "lifestyle_tips": [
+        "Time carb intake for post-workout and evening meals",
+        "Use intra-workout BCAAs",
+        "Practice good sleep hygiene for optimal recovery",
+        "Incorporate deload weeks every 4-6 weeks",
+        "Use a foam roller daily for muscle recovery"
+      ],
+      "goal": "muscle_gain",
+      "focus": "hypertrophy",
+      "intensity": "very_high",
+      "duration": 75,
+      "frequency": 4,
+      "bmi_range": {
+        "min": 20,
+        "max": 28
+      },
+      "experience_level": "advanced"
+    },
+    {
+      "id": 19,
+      "diet_plan": {
+        "description": "Protein-sparing modified fast: Very high protein (2.3g/kg lean body mass), very low carb and fat.",
+        "focus": "Focus on lean proteins and green vegetables",
+        "note": "Cycle with periods of more balanced macronutrients"
+      },
+      "exercise_routine": {
+        "type": "Fat loss circuit training",
+        "frequency": "5x/week",
+        "circuit": [
+          {
+            "exercise": "Jump Rope",
+            "duration": "2 min"
+          },
+          {
+            "exercise": "Burpees",
+            "duration": "1 min"
+          },
+          {
+            "exercise": "Mountain Climbers",
+            "duration": "1 min"
+          },
+          {
+            "exercise": "Kettlebell Swings",
+            "duration": "1 min"
+          },
+          {
+            "exercise": "Push-ups",
+            "duration": "1 min"
+          },
+          {
+            "exercise": "Plank",
+            "duration": "1 min"
+          }
+        ],
+        "instructions": "Rest 2 min, repeat 3-5 times"
+      },
+      "lifestyle_tips": [
+        "Use an ECA stack (under medical supervision)",
+        "Practice refeed days once per week",
+        "Monitor lean body mass to ensure muscle preservation",
+        "Use a bioelectrical impedance scale for body composition tracking",
+        "Stay hydrated and supplement with electrolytes"
+      ],
+      "goal": "weight_loss",
+      "focus": "rapid_fat_loss",
+      "intensity": "very_high",
+      "duration": 45,
+      "frequency": 5,
+      "bmi_range": {
+        "min": 30,
+        "max": null
+      },
+      "experience_level": "intermediate"
+    }
+  ]
+}

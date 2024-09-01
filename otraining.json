@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "title": "Sample Meal plans",
+    "description": "This is a sample list of different meal plans designed for people with lactose intolerance, diabetes and hypertension.",
+    "disclaimer": "This is a sample plan and may need to be adjusted based on individual needs and preferences. It is recommended to consult with a registered dietitian for personalized guidance.",
+    "entry_count": 3
+  },
+  "data": [
+    {
+      "id": 1,
+      "type": "2000 calorie diet for lactose intolerant people",
+      "day1": {
+        "breakfast": "¾ cup oatmeal with cinnamon, 1 cup blueberries, 1 tbsp almonds, 2 hard-boiled eggs",
+        "lunch": "Burrito Bowl: ¾ cup brown rice, ¼ cup black beans, 4 oz grilled chicken or tofu, 1 cup romaine lettuce, ½ cup fajita veggies, 4 tbsp guacamole",
+        "dinner": "5 oz grilled steak, ½ cup wild rice, ½ cup roasted eggplant, 1 cup spinach salad with strawberries, 1 tbsp olive oil & balsamic vinaigrette",
+        "snacks": [
+          "¼ cup dried edamame",
+          "1 apple"
+        ]
+      },
+      "day2": {
+        "breakfast": "1 cup Soy yogurt, ½ cup granola, ½ cup raspberries, 1 tbsp nut butter",
+        "lunch": "1 whole Whole grain tortilla, 4 oz deli turkey slices, 4 tbsp hummus, ½ cup spinach, ½ cup sliced bell peppers, ¼ cup sliced carrots, ½ cup grapes",
+        "dinner": "4 oz tilapia (broiled or baked), ⅔ cup whole wheat pasta, ½ cup zucchini noodles, ¼ cup artichoke hearts, ½ cup diced tomatoes, 2 tsp olive oil",
+        "snacks": [
+          "1 tbsp nut butter, ½ cup pretzels",
+          "1 banana"
+        ]
+      },
+      "day3": {
+        "breakfast": "Microwave Omelet in a Mug: 2 eggs, 2 tbsp Soy milk, ¼ cup diced bell peppers, Pinch of pepper, 1 piece Wheat toast, 1 tbsp of peanut butter, 1 tsp berry jam",
+        "lunch": "1 - 6.5 oz can tuna or salmon, ½ avocado, ½ cup whole-grain crackers, ½ cup grapes, ½ cup carrots, ½ cup sliced bell pepper",
+        "dinner": "Beet & Brussel Sprout Bowl: 4 oz grilled chicken, ⅓ cup quinoa, ½ cup butternut squash, ½ cup roasted beets, ½ cup roasted Brussel sprouts, 1 cup spinach, 2 tbsp lemon-olive oil vinaigrette",
+        "snacks": [
+          "1 tbsp peanut butter, 1 Plain Rice cake, 1 banana sliced",
+          "½ cup Soy yogurt, ¼ cup granola, ¼ cup strawberries"
+        ]
+      },
+      "day4": {
+        "breakfast": "Overnight oats: ½ cup oats, 3 tbsp flax or chia seeds, ½ cup Soy milk, 1 banana, 1 tbsp nut butter",
+        "lunch": "4 oz grilled chicken, 1 - 6 in pita bread, ½ cup spinach, 1 tbsp tahini, Greek quinoa salad: ⅓ cup quinoa, ½ cup tomatoes, ½ cup cucumbers, ¼ cup chickpeas, 2 tbsp lemon vinaigrette",
+        "dinner": "Stuffed Sweet Potato: 4 oz seasoned ground turkey, ½ cup black beans, 1 baked sweet potato (can cook in instapot or microwave), ½ cup sauteed spinach, ½ cup diced tomatoes, 1 tbsp tahini mixed with 2 tsp lemon juice",
+        "snacks": [
+          "1 tbsp nut butter, 1 cup celery",
+          "1 RX, Kind, or Laura bar, 1 peach"
+        ]
+      },
+      "day5": {
+        "breakfast": "Breakfast burrito or taco: 1 whole-grain tortilla, 2 eggs, scrambled, ½ cup bell pepper and onions, 2 oz avocado, 1 tbsp salsa",
+        "lunch": "BLT Pasta Salad: 2 cups romaine lettuce, 4 oz turkey bacon or Canadian bacon, 1 cup Roma tomatoes, diced, ⅓ cup whole wheat shell pasta, 2 tbsp olive oil vinegrette dressing, 1 peach, 2 tbsp almonds",
+        "dinner": "5 oz BBQ Pulled Pork, 1 whole-grain roll, 1 cup cucumber salad (cucumber, onion, tomatoes, and olive oil vinaigrette), ½ cup roasted or steamed zucchini and summer squash",
+        "snacks": [
+          "½ cup Air-fryer roasted chickpeas, 2 plums",
+          "1 turkey-jerky stick, 1 pear or 1 cup canned pear"
+        ]
+      },
+      "day6": {
+        "breakfast": "Chia Seed Pudding: ½ cup soy milk, 2 tbsp chia seeds, 2 tsp honey, 1 cup berries, 2 tbsp walnut pieces, ¼ cup granola",
+        "lunch": "Buffalo Chicken Wrap: 1 Whole wheat tortilla, 4 oz grilled chicken, 3 tbsp buffalo/hot sauce, ½ cup chopped celery, ½ cup spinach/mixed greens, ¼ cup diced tomatoes, ½ cup carrots, ½ cup tortilla chips, ¼ cup guacamole",
+        "dinner": "Instapot Egg Roll in a Bowl: 4 oz ground turkey, chicken, or pork + seasonings, 2 cups mixed cabbage, shredded carrots, bell pepper, and onion, ⅔ cup brown rice, 1 tsp sesame oil",
+        "snacks": [
+          "1 hard-boiled egg, 1 peach",
+          "1 turkey-jerky stick, 1 pear or 1 cup canned pear"
+        ]
+      },
+      "day7": {
+        "breakfast": "1 Multigrain bagel, 1 egg, scrambled with 1 cup cooked spinach, 1 turkey sausage patty, 2 tsp butter, margarine, or avocado",
+        "lunch": "⅓ cup quinoa, ½ cup roasted or stemed sweet/regular potato, ½ cup beans, 4 oz teriyaki tofu, ½ cup purple cabbage, ½ cup roasted broccoli, 4 oz avocado, 1 tsp sesame oil",
+        "dinner": "4 oz Balsamic glazed chicken breast, 1 cup roasted or steamed butternut squash, ⅓ cup corn, 1 cup roasted or steamed green beans, 1 tsp olive oil",
+        "snacks": [
+          "¼ cup trail mix, 3 cups popcorn",
+          "¼ cup trail mix, 3 cups popcorn"
+        ]
+      },
+      "foodsToAvoid": [
+    "Dairy products (milk, cheese, yogurt, butter)",
+    "Processed foods containing dairy derivatives (e.g., baked goods, ice cream, sauces)",
+    "Certain medications that may contain lactose"
+  ],
+  "exercises": [
+    "Swimming",
+    "Cycling",
+    "Walking",
+    "Yoga",
+    "Pilates",
+    "Low-impact aerobics"
+  ]
+    },
+    {
+    "id":2,
+    "type":"1800 calorie diet for diabetic people.",
+     "day1": {
+      "breakfast": "1 cup oatmeal, 1 tbsp sliced almonds, 1 tbsp ground flaxseed",
+      "lunch": "Turkey sandwich on 2 slices whole wheat bread, raw veggies, hummus dip",
+      "dinner": "3 oz grilled salmon, ½ cup baked potato, spinach salad, 1 cup skim milk"
+    },
+    "day2": {
+      "breakfast": "Scrambled Egg Beaters omelet with vegetables, 2 slices whole wheat toast, sliced tomatoes",
+      "lunch": "1 cup bean soup, Green salad",
+      "dinner": "Chicken or steak stir-fry with plenty of vegetables ²⁄3 cup brown rice"
+    },
+    "day3": {
+      "breakfast": "Scrambled Egg Beaters omelet with vegetables, 2 slices whole wheat toast, sliced tomatoes",
+      "lunch": "Large green salad with grilled chicken breast 1 cup skim milk 1 fruit",
+      "dinner": "Chicken and bean burrito with whole wheat low-carb tortilla, salsa or pico de gallo, green salad"
+    },
+    "day4": {
+      "breakfast": "¾ cup whole grain cereal, 1 cup skim milk",
+      "lunch": "½ cup tuna fish salad on 1 whole tomato, 6 oz light yogurt, 1 fruit",
+      "dinner": "3 oz grilled salmon, ½ cup baked potato, spinach salad, 1 cup skim milk"
+    },
+    "day5": {
+      "breakfast": "Scrambled Egg Beaters omelet with vegetables, 2 slices whole wheat toast, sliced tomatoes",
+      "lunch": "Turkey sandwich on 2 slices whole wheat bread, raw veggies, hummus dip",
+      "dinner": "Chicken and bean burrito with whole wheat low-carb tortilla, salsa or pico de gallo, green salad"
+    },
+    "day6": {
+      "breakfast": "1 cup oatmeal, 1 tbsp sliced almonds, 1 tbsp ground flaxseed",
+      "lunch": "½ cup tuna fish salad on 1 whole tomato, 6 oz light yogurt, 1 fruit",
+      "dinner": "3 oz grilled chicken breast, 1 cup baked acorn squash, 1 cup steamed broccoli, 1 cup skim milk"
+    },
+    "day7": {
+      "breakfast": "Scrambled Egg Beaters omelet with vegetables, 2 slices whole wheat toast, sliced tomatoes",
+      "lunch": "Low-fat cottage cheese on 1 whole tomato 4 Ak-Mak crackers 1 fruit",
+      "dinner": "3 oz pan-seared trout 1 cup stir-fried vegetables ²⁄3 cup brown rice"
+    },
+    "foodsToAvoid": [
+    "Sugary drinks (soda, fruit juice, sports drinks, sweetened tea)",
+    "Refined carbohydrates (white bread, white rice, pasta, sugary cereals)",
+    "Trans fats (found in processed foods)",
+    "Excessive amounts of saturated fats (red meat, full-fat dairy products)",
+    "Large portions"
+  ],
+  "exercises": [
+    "Walking",
+    "Swimming",
+    "Cycling",
+    "Strength training",
+    "Yoga",
+    "Pilates"
+  ]
+    },
+    {
+        "id": 3,
+        "type": "1500 calorie diet for hypertension people",
+        "day1": {
+      "breakfast": "1 serving Old-Fashioned Oatmeal, 1/4 cup raspberries, 3 Tbsp. chopped walnuts",
+      "lunch": "1 serving White Bean & Veggie Salad, 1 medium apple",
+      "dinner": "1 serving Garlic Butter-Roasted Salmon with Potatoes & Asparagus",
+      "snacks": ["1 large pear"]
+    },
+    "day2": {
+      "breakfast": "1 serving Old-Fashioned Oatmeal, 1/4 cup raspberries, 3 Tbsp. chopped walnuts",
+      "lunch": "1 serving Vegan Superfood Grain Bowls",
+      "dinner": "1 serving Chicken Hummus Bowls",
+      "snacks": ["1 cup nonfat plain Greek yogurt, 1/4 cup blackberries", "10 dry-roasted unsalted almonds, 2 cups cantaloupe, cubed"]
+    },
+    "day3": {
+      "breakfast": "1 cup nonfat plain Greek yogurt, 1/3 cup blueberries, 3 Tbsp. slivered almonds",
+      "lunch": "1 serving Vegan Superfood Grain Bowls",
+      "dinner": "1 serving Baked Eggs in Tomato Sauce with Kale, 1-oz. slice whole-wheat baguette",
+      "snacks": ["1 1/3 cup cantaloupe, cubed"]
+    },
+    "day4": {
+      "breakfast": "1 cup nonfat plain Greek yogurt, 1/3 cup blueberries, 3 Tbsp. slivered almonds",
+      "lunch": "1 serving Vegan Superfood Grain Bowls",
+      "dinner": "1 serving Chicken & Kale Taco Salad with Jalapeño-Avocado Ranch",
+      "snacks": ["1 large banana, 2 Tbsp. almond butter", "10 dried apricot halves"]
+    },
+    "day5": {
+      "breakfast": "1 serving Old-Fashioned Oatmeal, 1/4 cup raspberries, 3 Tbsp. chopped walnuts",
+      "lunch": "1 serving Vegan Superfood Grain Bowls",
+      "dinner": "1 serving Slow-Cooker Chicken & White Bean Stew",
+      "snacks": ["1 large banana, 2 Tbsp. almond butter", "1/2 cup sliced cucumber"]
+    },
+    "day6": {
+      "breakfast": "1 cup nonfat plain Greek yogurt, 1/3 cup blueberries, 3 Tbsp. slivered almonds",
+      "lunch": "1 serving Slow-Cooker Chicken & White Bean Stew",
+      "dinner": "1 serving Coconut-Curry Chicken Cutlets, 2 cups mixed greens, 1 serving Citrus Vinaigrette",
+      "snacks": ["1 2/3 cup cantaloupe, cubed"]
+    },
+    "day7": {
+      "breakfast": "1 serving Old-Fashioned Oatmeal, 1/4 cup raspberries, 3 Tbsp. chopped walnuts",
+      "lunch": "1 serving Slow-Cooker Chicken & White Bean Stew",
+      "dinner": "1 serving Charred Shrimp, Pesto & Quinoa Bowls",
+      "snacks": ["1 large pear"]
+    },
+    "foodsToAvoid": [
+    "Sodium-rich foods (processed meats, canned soups, fast food)",
+    "Foods high in saturated and trans fats (red meat, fried foods, baked goods)",
+    "Sugary drinks (soda, fruit juice, sports drinks)",
+    "Excessive alcohol intake"
+  ],
+  "exercises": [
+    "Walking",
+    "Swimming",
+    "Cycling",
+    "Strength training (supervised by a healthcare professional)",
+    "Yoga",
+    "Tai Chi"
+  ]
+  }
+  ]
+}
